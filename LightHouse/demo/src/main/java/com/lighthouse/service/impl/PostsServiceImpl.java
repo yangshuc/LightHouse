@@ -2,7 +2,7 @@ package com.lighthouse.service.impl;
 
 import com.lighthouse.entity.Posts;
 import com.lighthouse.mapper.PostsMapper;
-import com.lighthouse.service.IPostsService;
+import com.lighthouse.service.PostsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2024-10-27
  */
 @Service
-public class PostsServiceImpl extends ServiceImpl<PostsMapper, Posts> implements IPostsService {
+public class PostsServiceImpl extends ServiceImpl<PostsMapper, Posts> implements PostsService {
 
 }

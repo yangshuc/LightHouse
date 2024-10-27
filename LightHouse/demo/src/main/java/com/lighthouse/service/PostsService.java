@@ -1,6 +1,6 @@
 package com.lighthouse.service;
 
-import com.lighthouse.entity.Tags;
+import com.lighthouse.entity.Posts;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
@@ -11,6 +11,6 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @author ysc
  * @since 2024-10-27
  */
-public interface ITagsService extends IService<Tags> {
+public interface PostsService extends IService<Posts> {
 
 }

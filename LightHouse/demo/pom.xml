@@ -6,13 +6,13 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.3.5</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
-    <groupId>com.example</groupId>
+    <groupId>com.lighthouse</groupId>
     <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>lightHouse</name>
-    <description>lightHouse</description>
+    <name>lighthouse</name>
+    <description>lighthouse</description>
     <url/>
     <licenses>
         <license/>
@@ -44,11 +44,11 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        <!-- MyBatis-Plus Starter -->
+
         <dependency>
             <groupId>com.baomidou</groupId>
-            <artifactId>mybatis-plus-boot-starter</artifactId>
-            <version>3.5.2</version> <!-- 请根据需要选择合适的版本 -->
+            <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
+            <version>3.5.9</version>
         </dependency>
 
         <!-- 数据库驱动（例如 MySQL） -->
@@ -62,7 +62,7 @@
         <dependency>
             <groupId>com.baomidou</groupId>
             <artifactId>mybatis-plus-generator</artifactId>
-            <version>3.5.3</version>
+            <version>3.5.9</version>
         </dependency>
         <!-- Velocity 模板引擎 -->
         <dependency>

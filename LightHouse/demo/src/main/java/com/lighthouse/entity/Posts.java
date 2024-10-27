@@ -9,7 +9,7 @@ import lombok.Setter;
 
 /**
  * <p>
- * 
+ *
  * </p>
  *
  * @author ysc
@@ -17,9 +17,7 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-public class Posts implements Serializable {
-
-    private static final long serialVersionUID = 1L;
+public class Posts {
 
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
@@ -30,7 +28,7 @@ public class Posts implements Serializable {
     private String title;
 
     /**
-     * 文章内容 
+     * 文章内容
      */
     private String content;
 
@@ -40,7 +38,7 @@ public class Posts implements Serializable {
     private Integer userId;
 
     /**
-     * 创建时间 
+     * 创建时间
      */
     private LocalDateTime createdTime;
 

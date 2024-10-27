@@ -9,7 +9,7 @@ import lombok.Setter;
 
 /**
  * <p>
- * 
+ *
  * </p>
  *
  * @author ysc
@@ -17,25 +17,23 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-public class Users implements Serializable {
-
-    private static final long serialVersionUID = 1L;
+public class Users{
 
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
 
     /**
-     * 用户名，唯一 
+     * 用户名，唯一
      */
     private String username;
 
     /**
-     * 密码 
+     * 密码
      */
     private String password;
 
     /**
-     * 邮箱，唯一 
+     * 邮箱，唯一
      */
     private String email;
 

@@ -2,7 +2,7 @@ package com.lighthouse.service.impl;
 
 import com.lighthouse.entity.Tags;
 import com.lighthouse.mapper.TagsMapper;
-import com.lighthouse.service.ITagsService;
+import com.lighthouse.service.TagsService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
@@ -15,6 +15,6 @@ import org.springframework.stereotype.Service;
  * @since 2024-10-27
  */
 @Service
-public class TagsServiceImpl extends ServiceImpl<TagsMapper, Tags> implements ITagsService {
+public class TagsServiceImpl extends ServiceImpl<TagsMapper, Tags> implements TagsService {
 
 }

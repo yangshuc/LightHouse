@@ -1,9 +1,7 @@
 package com.lighthouse.service;
 
-import com.lighthouse.entity.Comments;
+import com.lighthouse.entity.Tags;
 import com.baomidou.mybatisplus.extension.service.IService;
-
-import java.util.Collection;
 
 /**
  * <p>
@@ -13,6 +11,6 @@ import java.util.Collection;
  * @author ysc
  * @since 2024-10-27
  */
-public interface ICommentsService extends IService<Comments> {
+public interface TagsService extends IService<Tags> {
 
 }

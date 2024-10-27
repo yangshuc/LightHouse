@@ -1,7 +1,7 @@
 package com.lighthouse.service;
 
+import com.lighthouse.entity.Comments;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.lighthouse.entity.PostTags;
 
 /**
  * <p>
@@ -11,6 +11,6 @@ import com.lighthouse.entity.PostTags;
  * @author ysc
  * @since 2024-10-27
  */
-public interface IPostTagsService extends IService<PostTags> {
+public interface CommentsService extends IService<Comments> {
 
 }

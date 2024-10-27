@@ -9,7 +9,7 @@ import lombok.Setter;
 
 /**
  * <p>
- * 
+ *
  * </p>
  *
  * @author ysc
@@ -17,9 +17,7 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-public class Comments implements Serializable {
-
-    private static final long serialVersionUID = 1L;
+public class Comments {
 
     @TableId(value = "id", type = IdType.AUTO)
     private Integer id;
