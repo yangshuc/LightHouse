@@ -11,8 +11,8 @@
     <groupId>com.example</groupId>
     <artifactId>demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
-    <description>demo</description>
+    <name>lightHouse</name>
+    <description>lightHouse</description>
     <url/>
     <licenses>
         <license/>
@@ -44,6 +44,19 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+        <!-- MyBatis-Plus Starter -->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.5.2</version> <!-- 请根据需要选择合适的版本 -->
+        </dependency>
+
+        <!-- 数据库驱动（例如 MySQL） -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.16</version> <!-- 请根据需要选择合适的版本 -->
         </dependency>
     </dependencies>
 
