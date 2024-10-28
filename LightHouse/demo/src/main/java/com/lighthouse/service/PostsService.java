@@ -3,6 +3,8 @@ package com.lighthouse.service;
 import com.lighthouse.entity.Posts;
 import com.baomidou.mybatisplus.extension.service.IService;
 
+import java.util.List;
+
 /**
  * <p>
  *  服务类
@@ -12,5 +14,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
  * @since 2024-10-27
  */
 public interface PostsService extends IService<Posts> {
+    List<Posts> searchPostByUserId(Integer id);
 
+    Posts searchPostById(Integer id);
 }

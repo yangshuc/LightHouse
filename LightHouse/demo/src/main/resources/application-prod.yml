@@ -6,6 +6,6 @@ spring:
   datasource:
     # 本地数据库
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://127.0.0.1:3306/light_house?autoReconnect=true&useUnicode=true&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://127.0.0.1:3306/lighthouse?autoReconnect=true&useUnicode=true&serverTimezone=Asia/Shanghai
     username: root
-    password: root
+    password: g2mf%7ng$z&Z#R

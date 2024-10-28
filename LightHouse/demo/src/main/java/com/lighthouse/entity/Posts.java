@@ -2,8 +2,9 @@ package com.lighthouse.entity;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableId;
-import java.io.Serializable;
 import java.time.LocalDateTime;
+
+import com.baomidou.mybatisplus.annotation.TableLogic;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -36,6 +37,10 @@ public class Posts {
      * 外键，指向用户表
      */
     private Integer userId;
+
+    // 删除标志（0未删除 1已删除）
+    @TableLogic
+    private Integer deleted;
 
     /**
      * 创建时间
